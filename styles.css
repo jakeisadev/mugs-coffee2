@@ -24,7 +24,7 @@ html,body {
 }
 
 
-/*Default Nav CSS*/
+/*Default Nav CSS (Desktop)*/
 
 nav ul a {
     text-decoration: none;
@@ -58,11 +58,6 @@ nav ul li:hover a {
     opacity: 0.7;
 }
 
-/* .nav-item-home {
-    border: 2px solid white;
-    padding: 0.5em;
-} */
-
 nav ul li.active {
   border: 2px solid white;
   padding: .5em;
@@ -88,9 +83,9 @@ nav {
     padding: 3em;
     justify-content: flex-end;
 }
+/* End Default Nav CSS */
 
-/*Mobile Nav CSS*/
-
+/* Mobile Nav CSS */
 .container {
     max-width: 1050px;
     width: 90%;
@@ -230,6 +225,10 @@ nav {
     display: none;
   }
 
+/* End Mobile Nav CSS*/
+
+/* Main Content CSS */
+
 .mugs-photo {
     width: 30%;
     height: 30%;
@@ -291,6 +290,8 @@ nav {
 footer {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+/* End Main Content CSS */
 
 @media screen and (max-width: 428px) {
     .nav {
