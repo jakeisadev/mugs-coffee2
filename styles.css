@@ -227,7 +227,7 @@ nav {
 
 /* End Mobile Nav CSS*/
 
-/* Main Content CSS */
+/* Main Content CSS for index.html*/
 
 .mugs-photo {
     width: 30%;
@@ -292,6 +292,58 @@ footer {
 }
 
 /* End Main Content CSS */
+
+/* Main Content CSS for menu.html */
+
+.title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1.3em;
+}
+
+p.lead.food-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1em;
+}
+
+.items {
+  text-align: center;
+  gap: .5em;
+}
+
+#row-container {
+  margin-top: 1em;
+}
+
+p.food-title {
+  font-size: 3.5rem;
+  margin-top: .5em;
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+}
+
+p.lead.food-title.col {
+  text-decoration: underline;
+  color: black;
+}
+
+.drink-wrapper {
+  border: 3px dashed rgba(0, 0, 0, .35);
+}
+
+ul.flavors li {
+  text-align: center;
+  line-height: 3rem;
+}
+
+.shakes {
+  list-style-type: none;
+  text-align: left;
+}
+
+/* End Main Content CSS for menu.html */
 
 @media screen and (max-width: 428px) {
     .nav {
