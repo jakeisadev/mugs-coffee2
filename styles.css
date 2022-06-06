@@ -343,7 +343,33 @@ ul.flavors li {
   text-align: left;
 }
 
-/* End Main Content CSS for menu.html */
+#coffee-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.button-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+/* End Main Content CSSfor menu.html */
+
+/* Begin Main Content CSS for contact.html */
+
+h1.form-header {
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Amatic SC', serif;
+  margin: 1em;
+}
+
+p.form-header-text {
+  font-size: 1 rem;
+  text-align: center;
+}
+
+/* End Main Content CSS for contact.html */
 
 @media screen and (max-width: 428px) {
     .nav {
