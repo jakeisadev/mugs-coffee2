@@ -287,6 +287,10 @@ nav {
   'opsz' 48
 }
 
+button[class="btn btn-dark"] {
+  margin-top: 2em;
+}
+
 footer {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -340,7 +344,7 @@ ul.flavors li {
 
 .shakes {
   list-style-type: none;
-  text-align: left;
+  text-align: center;
 }
 
 #coffee-button a {
@@ -369,9 +373,37 @@ p.form-header-text {
   text-align: center;
 }
 
+.mugs-photo-contact {
+  width: 50vw;
+  height: 50vh;
+}
+
+.review-photo {
+  max-width: 50%;
+}
+
+.d-grid {
+  
+}
+
 /* End Main Content CSS for contact.html */
 
-@media screen and (max-width: 428px) {
+/* Begin Main Content for about.html */
+
+.calendar-photo {
+  width: 100%;
+  margin-top: 1em;
+}
+
+/* End Main Content for about.html */
+
+@media screen and (min-width: 576px) and (max-width: 1076px) {
+  article {
+    color: red;
+  }
+}
+
+@media screen and (max-width: 576px) {
     .nav {
         visibility: visible;
     }
@@ -437,4 +469,18 @@ p.form-header-text {
       text-align: center;
       margin-top: 1.5em;
     }
+
+    /* Contact.html query 428px*/
+
+    .mobile-map-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .mugs-photo-contact {
+      width: 100%;
+      height: 100%;
+      margin-top: 2em;
+    }
+
 }
