@@ -5,7 +5,7 @@
 html,body {
     margin:0;
     padding:0;
-    overflow-x:hidden;
+    /* overflow-x:hidden; */
 }
 
 .background {
@@ -15,14 +15,18 @@ html,body {
     height: 40vh;
 }
 
-.main {
+/* .main {
     height:100%;
-}
+} */
 
 .main {
     background-color: #fff;
 }
 
+/* Defaukt mugs-photo CSS */
+.mugs-photo {
+  max-width: 75%;
+}
 
 /*Default Nav CSS (Desktop)*/
 
@@ -86,11 +90,11 @@ nav {
 /* End Default Nav CSS */
 
 /* Mobile Nav CSS */
-.container {
+/* .container {
     max-width: 1050px;
     width: 90%;
     margin: auto;
-  }
+  } */
   
   .nav {
     width: 100%;
@@ -229,16 +233,16 @@ nav {
 
 /* Main Content CSS for index.html*/
 
-.mugs-photo {
+/* .mugs-photo {
     width: 30%;
     height: 30%;
     display: block;
     margin: 20px 0 0 20px;
     border-radius: 3px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
+} */
 
-.mugs-photo-2 {
+/* .mugs-photo-2 {
     border-radius: 3px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 80%;
@@ -246,7 +250,13 @@ nav {
     display: block;
     margin: 0 auto;
     margin-top: 3em;
+} */
+
+.mugs-photo-2 {
+  max-width: 80%;
 }
+
+
 
 .mugs-article-1 {
     display: flex;
@@ -270,7 +280,7 @@ nav {
 .wifi {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     margin-top: 3em;
     border-top: 3px solid rgba(0, 0, 0, .45);
     border-bottom: 3px solid rgba(0, 0, 0, .45);
@@ -382,10 +392,6 @@ p.form-header-text {
   max-width: 50%;
 }
 
-.d-grid {
-  
-}
-
 /* End Main Content CSS for contact.html */
 
 /* Begin Main Content for about.html */
@@ -396,11 +402,24 @@ p.form-header-text {
 }
 
 /* End Main Content for about.html */
-
-@media screen and (min-width: 576px) and (max-width: 1076px) {
+/* and (max-width: 1076px)  */
+@media screen and (min-width: 576px) {
   article {
     color: red;
   }
+
+  /* .mugs-photo {
+    width: 50vw;
+    height: 30vh;
+    display: inline-block;
+  } */
+
+  button {
+    visibility: hidden;
+  }
+
+  
+
 }
 
 @media screen and (max-width: 576px) {
@@ -412,11 +431,11 @@ p.form-header-text {
         visibility: hidden;
     }
 
-    .mugs-photo {
+    /* .mugs-photo {
       width: 75vw;
       height: 30vh;
       margin: 0.4em 0 0 0;
-    }
+    } */
 
     .mugs-article-1 {
       flex-direction: column;
