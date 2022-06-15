@@ -5,14 +5,15 @@
 html,body {
     margin:0;
     padding:0;
-    /* overflow-x:hidden; */
+    overflow-x:hidden;
 }
 
 .background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('images/mugs5.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('images/muugs10.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40vh;
+    height: 43vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /* .main {
@@ -25,7 +26,8 @@ html,body {
 
 /* Defaukt mugs-photo CSS */
 .mugs-photo {
-  max-width: 75%;
+  max-width: 70%;
+  margin-left: 2em;
 }
 
 /*Default Nav CSS (Desktop)*/
@@ -252,11 +254,15 @@ nav {
     margin-top: 3em;
 } */
 
-.mugs-photo-2 {
-  max-width: 80%;
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 3px;
 }
 
-
+.mugs-photo-2 {
+  max-width: 70%;
+  margin-left: 3em;
+}
 
 .mugs-article-1 {
     display: flex;
@@ -269,12 +275,21 @@ nav {
     width: 30vw;
     max-width: 100%;
     white-space: wrap;
+    font-size: 1.5rem;
+}
+
+#about-text {
+    margin: 0.8em 0 0 10em;
+    width: 30vw;
+    max-width: 100%;
+    white-space: wrap;
+    font-size: 1.5rem;
 }
 
 #intro-text::first-letter,
 #about-text::first-letter {
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .wifi {
@@ -288,13 +303,29 @@ nav {
     border-radius: 3px;
 }
 
+.art {
+  font-size: 2rem;
+  width: 75%;
+  border-top: 3px solid rgba(0, 0, 0, .45);
+  border-bottom: 3px solid rgba(0, 0, 0, .45);
+  border-radius: 3px;
+  justify-content: center;
+  text-align: center;
+  padding: 1em;
+}
+
 .material-symbols-outlined {
-  font-size: 2.2rem;
+  font-size: 3rem;
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
+}
+
+span.material-symbols-outlined {
+  padding: 1em;
+  font-size: 1.5rem;
 }
 
 button[class="btn btn-dark"] {
@@ -404,9 +435,6 @@ p.form-header-text {
 /* End Main Content for about.html */
 /* and (max-width: 1076px)  */
 @media screen and (min-width: 576px) {
-  article {
-    color: red;
-  }
 
   /* .mugs-photo {
     width: 50vw;
@@ -414,7 +442,7 @@ p.form-header-text {
     display: inline-block;
   } */
 
-  button {
+  .home-button {
     visibility: hidden;
   }
 
