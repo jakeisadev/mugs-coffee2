@@ -6,19 +6,16 @@ html,body {
     margin:0;
     padding:0;
     overflow-x:hidden;
+    height: 100%;
 }
 
 .background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('images/muugs10.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('images/mugs1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 43vh;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
-/* .main {
-    height:100%;
-} */
 
 .main {
     background-color: #fff;
@@ -92,11 +89,6 @@ nav {
 /* End Default Nav CSS */
 
 /* Mobile Nav CSS */
-/* .container {
-    max-width: 1050px;
-    width: 90%;
-    margin: auto;
-  } */
   
   .nav {
     width: 100%;
@@ -235,61 +227,55 @@ nav {
 
 /* Main Content CSS for index.html*/
 
-/* .mugs-photo {
-    width: 30%;
-    height: 30%;
-    display: block;
-    margin: 20px 0 0 20px;
-    border-radius: 3px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-} */
-
-/* .mugs-photo-2 {
-    border-radius: 3px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 80%;
-    height: 50%;
-    display: block;
-    margin: 0 auto;
-    margin-top: 3em;
-} */
-
 .shadow {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 3px;
 }
 
 .mugs-photo-2 {
-  max-width: 70%;
+  max-width: 80%;
   margin-left: 3em;
 }
 
-.mugs-article-1 {
-    display: flex;
-    justify-content: center;
-    padding-top: 2em;
+.mugs-photo-3 {
+  max-width: 85%;
+  max-height: 85%;
+} 
+
+.center {
+  display: flex;
+  width: auto;
+  margin: 0 auto;
 }
 
-#intro-text {
-    margin: 0.8em 0 0 5em;
-    width: 30vw;
+ #intro-text { 
+    margin: 0.8em 0 0 2.5em;
+    width: 35vw;
     max-width: 100%;
     white-space: wrap;
     font-size: 1.5rem;
 }
 
 #about-text {
-    margin: 0.8em 0 0 10em;
-    width: 30vw;
+    margin: 0.8em 0 0 3em;
+    width: 40vw;
     max-width: 100%;
     white-space: wrap;
     font-size: 1.5rem;
 }
 
 #intro-text::first-letter,
-#about-text::first-letter {
+#about-text::first-letter,
+#art-text::first-letter {
     text-transform: uppercase;
     font-size: 3rem;
+}
+
+#art-text {
+  font-size: 1.5rem;
+  white-space: wrap;
+  max-width: 100%;
+  margin: 0.8em 0 0 6em;
 }
 
 .wifi {
@@ -415,8 +401,8 @@ p.form-header-text {
 }
 
 .mugs-photo-contact {
-  width: 50vw;
-  height: 50vh;
+  width: 30vw;
+  height: 30vh;
 }
 
 .review-photo {
