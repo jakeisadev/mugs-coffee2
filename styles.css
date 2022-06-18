@@ -420,23 +420,37 @@ p.form-header-text {
 
 /* End Main Content for about.html */
 /* and (max-width: 1076px)  */
-@media screen and (min-width: 576px) {
-
-  /* .mugs-photo {
-    width: 50vw;
-    height: 30vh;
-    display: inline-block;
-  } */
-
-  .home-button {
-    visibility: hidden;
+@media screen and (min-width: 568px) and (max-width: 726px) {
+  .mugs-photo {
+    margin: auto;
   }
 
-  
+  /* .home-button {
+    visibility: hidden;
+  } */
+
+  #intro-text {
+    width: 75vw;
+    line-height: 2.0;
+    margin: auto;
+  }
+
+  #about-text {
+    line-height: 2.0;
+    width: 80vw;
+  }
+
+  .mugs-photo-2 {
+    margin-left: 5em;
+  }
+
+  .art {
+    width: 100%;
+  }
 
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 568px) {
     .nav {
         visibility: visible;
     }
@@ -517,9 +531,9 @@ p.form-header-text {
     }
 
     footer {
-      padding: 2em;
       margin-top: 2em;
       text-align: center;
+      width: 100vw;
       background-color: rgba(229, 229, 229, 0.8);
     }
 
@@ -534,6 +548,11 @@ p.form-header-text {
     p#top.lead {
       text-align: center;
       margin-top: 1.5em;
+    }
+
+    .mugs-hours-photo {
+      display: block;
+      width: 100vw;
     }
 
     /* Contact.html query 428px*/
