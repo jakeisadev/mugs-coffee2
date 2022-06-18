@@ -445,11 +445,29 @@ p.form-header-text {
         visibility: hidden;
     }
 
-    /* .mugs-photo {
-      width: 75vw;
+    .mugs-photo {
+      width: 100%;
       height: 30vh;
       margin: 0.4em 0 0 0;
-    } */
+    }
+
+    .mugs-photo-3 {
+      width: 100%;
+      height: 30vh;
+      
+    }
+
+    .mugs-photo-2 {
+      width: 70vw;
+      height: 30vh;
+    }
+
+    .center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+    }
 
     .mugs-article-1 {
       flex-direction: column;
@@ -457,7 +475,6 @@ p.form-header-text {
     }
 
     #intro-text {
-      margin: 1em;
       font-size: 1.3rem;
       width: 75vw;
       text-align: justify;
@@ -471,12 +488,28 @@ p.form-header-text {
       line-height: 2.0;
       width: 75vw;
       max-width: 100%;
-      margin: 1em 0 0 2.1em;
+      margin: .5em 1em 2em 1em;
+    }
+
+    #art-text {
+      text-align: justify;
+      justify-content: center;
+      margin: 1rem 1rem 1rem 2rem;
     }
 
     .wifi {
       text-align: center;
       justify-content: center;
+    }
+
+    .hours-photo {
+      display: block;
+      margin: auto;
+    }
+
+    .art {
+      width: 100%;
+      padding: 1em 0 1em 0;
     }
 
     h1 {
