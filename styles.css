@@ -384,6 +384,12 @@ ul.flavors li {
   text-align: center;
 }
 
+#flex-box3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* End Main Content CSSfor menu.html */
 
 /* Begin Main Content CSS for contact.html */
@@ -419,15 +425,75 @@ p.form-header-text {
 }
 
 /* End Main Content for about.html */
-/* and (max-width: 1076px)  */
+
+
+/* Media Queries for index.html */
+@media screen and (min-width: 727px) and (max-width: 1400px) {
+  
+  .mugs-photo {
+    margin: auto;
+    width: 100%;
+  }
+
+  #intro-text {
+    width: 85%;
+    line-height: 2.0;
+    font-size: 1.3rem;
+  }
+
+  #about-text {
+    line-height: 2.0;
+    width: 85%;
+    font-size: 1.3rem;
+  }
+
+  #art-text {
+    margin: 2em 0 2em 2em;
+  }
+
+  #flex-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+  }
+
+  #flex-box2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #flex-box3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wifi {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .mugs-photo-2 {
+    margin-right: 3em;
+  }
+
+  .art {
+    width: 60%;
+  }
+
+  .mugs-hours-photo {
+    display: block;
+    width: 100%;
+  }
+
+}
+
+
 @media screen and (min-width: 568px) and (max-width: 726px) {
   .mugs-photo {
     margin: auto;
   }
-
-  /* .home-button {
-    visibility: hidden;
-  } */
 
   #intro-text {
     width: 75vw;
@@ -440,11 +506,36 @@ p.form-header-text {
     width: 80vw;
   }
 
+  #art-text {
+    margin: 1em 0 0 4em;
+  }
+
   .mugs-photo-2 {
     margin-left: 5em;
   }
 
+  .mugs-photo-3 {
+    margin: auto;
+  }
+
   .art {
+    width: 100%;
+  }
+
+  .wifi {
+    width: 75%;
+    margin: auto;
+    margin: 2em 0 0 5em;
+  }
+
+  .center {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mugs-hours-photo {
+    display: block;
+    margin: auto;
     width: 100%;
   }
 
@@ -514,6 +605,8 @@ p.form-header-text {
     .wifi {
       text-align: center;
       justify-content: center;
+      width: 75%;
+      margin: 2em 0 0 3em;
     }
 
     .hours-photo {
@@ -522,7 +615,7 @@ p.form-header-text {
     }
 
     .art {
-      width: 100%;
+      width: 75%;
       padding: 1em 0 1em 0;
     }
 
