@@ -428,7 +428,7 @@ p.form-header-text {
 
 
 /* Media Queries for index.html */
-@media screen and (min-width: 727px) and (max-width: 1400px) {
+@media screen and (min-width: 727px) and (max-width: 1800px) {
   
   .mugs-photo {
     margin: auto;
@@ -487,6 +487,50 @@ p.form-header-text {
     width: 100%;
   }
 
+  .oliver-photo1 {
+    width: 85%;
+    height: 100%;
+  }
+
+  #oliver-bio {
+    font-size: 1.3rem;
+    word-wrap: normal;
+    line-height: 1.2;
+    margin: 2em;
+  }
+
+  #oliver-bio::first-letter {
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+   .oliver-photo1 {
+    display: block;
+    width: 100%;
+  }
+
+  .oliver-title {
+    margin: 2em;
+  }
+
+  #about-info {
+    display: flex;
+  }
+
+}
+
+@media screen and (min-width: 727px) and (max-width: 992px) {
+  #about-info {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+ 
+  .oliver-photo1 {
+    display: block;
+    margin: auto;
+    width: 50vw;
+  }
 }
 
 
@@ -536,6 +580,21 @@ p.form-header-text {
   .mugs-hours-photo {
     display: block;
     margin: auto;
+    width: 100%;
+  }
+
+  #oliver-bio::first-letter {
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #about-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .oliver-photo1 {
+    display: block;
     width: 100%;
   }
 
@@ -661,4 +720,26 @@ p.form-header-text {
       margin-top: 2em;
     }
 
+    #oliver-info {
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      justify-content: center;
+    }
+
+    #oliver-bio::first-letter {
+      text-transform: uppercase;
+      font-size: 3rem;
+    }
+
+    #oliver-bio {
+      margin: 1.5em;
+    }
+
+    .oliver-photo1 {
+      display: block;
+      width: 100%;
+    }
+
+    
 }
