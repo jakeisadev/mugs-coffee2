@@ -232,6 +232,10 @@ nav {
   border-radius: 3px;
 }
 
+.modal {
+  visibility: hidden;
+}
+
 .mugs-photo-2 {
   max-width: 80%;
   margin-left: 3em;
@@ -426,7 +430,9 @@ p.form-header-text {
 
 /* End Main Content for about.html */
 
-
+button.btn.btn-dark {
+  visibility: hidden;
+}
 /* Media Queries for index.html */
 @media screen and (min-width: 727px) and (max-width: 1800px) {
   
@@ -516,7 +522,6 @@ p.form-header-text {
   #about-info {
     display: flex;
   }
-
 }
 
 @media screen and (min-width: 727px) and (max-width: 992px) {
@@ -531,6 +536,7 @@ p.form-header-text {
     margin: auto;
     width: 50vw;
   }
+
 }
 
 
@@ -603,6 +609,14 @@ p.form-header-text {
 @media screen and (max-width: 568px) {
     .nav {
         visibility: visible;
+    }
+
+    button.btn.btn-dark {
+      visibility: visible;
+    }
+
+    .modal {
+      visibility: visible;
     }
 
     nav {
@@ -740,6 +754,5 @@ p.form-header-text {
       display: block;
       width: 100%;
     }
-
     
 }

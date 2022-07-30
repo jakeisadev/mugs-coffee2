@@ -50,12 +50,36 @@
     </nav>
     </div>
     <!-- Background Div Ends Here -->
+    <!-- Modal Begin -->
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal-label">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footser">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal End -->
     <!-- First Row Starts -->
     <div class="row justify-content-center" id="flex-box">
       <div class="col-12 col-md-6 d-flex mt-5 mb-2 justify-content-center container-fluid">
         <img src="images/mugs7.jpg" class="mugs-photo shadow">
       </div>
       <div class="col-12 col-md-6 container-fluid">
+        <div class="d-flex justify-content-center mt-2 text-center">
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal">Tap for hours</button>
+        </div>
         <article class="lg lead mt-5 container-fluid justify-content-center" id="intro-text">
           Welcome to Mugs Coffee!  If you’re looking for a place to have amazing coffee drinks
           and a relaxing atmosphere, this is the place for you. We are located in the Park 
